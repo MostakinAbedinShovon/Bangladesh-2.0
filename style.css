@@ -1,0 +1,368 @@
+/* Font Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Entire page color change */
+
+header,main,footer{
+    background-color: whitesmoke;
+}
+
+/* Banner Section */
+
+.center-banner{
+    display: flex;
+    justify-content: center;
+}
+.main-part{
+    height: 560px;
+    width: 1280px;
+    border-radius: 24px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #C6E4D6;
+    margin-top: 120px;
+}
+.left-part{
+    width: 610px;
+    height: 326px;
+    margin: 117.5px 0px 117.5px 60px;
+}
+.right-part{
+    height: 400px;
+    width: 475px;
+    margin: 80px 60px 80px 0px;
+}
+.top-para{
+    font-size: 24px;
+    margin: 0px;
+    color: #0e0e0e75;
+}
+.heading{
+    font-size: 56px;
+    margin: 16px 0px 24px 0px;
+}
+.btn-para{
+    width: 270px;
+    height: 60px;
+    font-size: 18.5px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #006A50;
+}
+.btn-para:hover{
+    background-color: #E0115F;
+}
+
+/* The Vision of Future */
+.top-para-2{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.sec-para{
+    font-size: 16px;
+    color: #0e0e0e87;
+    margin-bottom: 32px;
+}
+.sec-main-part{
+    height: 560px;
+    width: 1280px;
+    margin-top: 24px;
+}
+.each-box{
+    width: 410.67px;
+    height: 325px;
+}
+.box-design{
+    margin-right: 24px;
+    margin-bottom: 32px;
+    border-radius: 20px;
+    padding: 32px;
+    width: 410.67px;
+    height: 265px;
+}
+.letter-col{
+    color: #0e0e0eb8;
+}
+.button-sz{
+    width: 122px;
+    height: 41px;
+    font-size: 14.5px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.div1-col{
+    background-color: #5490F533;
+}
+.div2-col{
+    background-color: #C6E4D6;
+}
+.div3-col{
+    background-color: #F7EBCF;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.fst-btn{
+    background-color: #5490F5;
+}
+.sec-btn{
+    background-color: #09A15C;
+}
+.thrd-btn{
+    background-color: #FFC239;
+}
+.btn1-pos{
+    padding-top: 15px;
+}
+.btn2-pos{
+    padding-top: 30px;
+}
+.btn3-pos{
+    padding-top: 15px;
+}
+
+/* Quote Section */
+
+.box-details{
+    height: 220px;
+    width: 1250px;
+    padding: 7px 24px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 60px;
+    border-radius: 16px;
+}
+.quote{
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding-top: 27px;
+}
+.para1{
+    font-size: 16px;
+    color: #0e0e0eb6;
+}
+.younus{
+    font-size: 20px;
+    color: #0e0e0eb7;
+}
+
+/* Recent News */
+
+.sz-of-para{
+    width: 1280px;
+    margin-bottom: 35px;
+}
+.header4{
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 35px;
+    padding: 0px;
+    color: #0E0E0E;
+}
+.para4{
+    font-size: 16px;
+    color: #0E0E0EB3;
+    padding: 0px;
+    margin-top: 24px 0px 0px 0px;
+}
+.div2{
+    width: 1200px;
+    height:270px;
+    padding: 48px 32px 48px 48px;
+    background-color: white;
+    border-radius: 24px;
+}
+.sat-img{
+    border-radius: 32px;
+    margin-right: 24px;
+}
+.inr-ele-align{
+    display: flex;
+}
+.para4-v2{
+    padding: 0px;
+    margin: 0px;
+}
+.col-align{
+    align-items: center;
+}
+.mar4{
+    margin-bottom: 32px;
+}
+.h-font-mnge{
+    font-size: 32px;
+    margin: 0px;
+    margin-bottom: 8px;
+    padding: 0px;
+    color: #0E0E0ECC;
+}
+.time-font{
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #0E0E0EB3;
+}
+.btn-clr{
+    background-color: #006A50;
+}
+.for-top-pad{
+    padding-top: 10px;
+}
+.button-pad{
+    padding-top: 20px;
+}
+
+/* Donate For Bangladesh */
+
+.align-part5{
+    height: 560px;
+    width: 1280px;
+    text-align: center;
+}
+.ttl{
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.tt2{
+    font-size: 16px;
+    color: #0E0E0EB3;
+}
+.btn-alloy{
+    width: 240px;
+    height: 115px;
+    padding: 25px;
+    color: #0E0E0ECC;
+    margin-right: 24px;
+    border-radius: 16px;
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+.btn-sol{
+    margin-right: 0px;
+}
+.hovset:hover{
+    background-color: #C6E4D6;
+}
+.for-txt-fld{
+    width: 900px;
+    height: 25px;
+    padding: 20px 40px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.055);
+    text-align: center;
+    font-size: 20px;
+}
+.button-sz-tmp{
+    width: 151px;
+    height: 56px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+
+/* Newsletter Section */
+
+
+.div22{
+    width: 1100px;
+    height:225px;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.align-part52{
+    width: 750px;
+    height: 112px;
+}
+.ttl2{
+    font-size: 40px;
+    margin: 0px;
+    color: #0E0E0E;
+}
+.tt22{
+    font-size: 16px;
+    margin: 16px 0px;
+    color: #0E0E0EB3;
+}
+.for-txt-fld2{
+    width: 600px;
+    height: auto;
+    padding: 18px 40px;
+    background-color: white;
+    border: 1px solid #0E0E0E4D;
+    text-align: start;
+    font-size: 20px;
+    border-radius: 8px 0px 0px 8px;
+    color: #0E0E0EB3;
+}
+.cls-for-flx{
+    display: flex;
+    justify-content: end;
+}
+.button-sz-tmp2{
+    width: 170px;
+    height: auto;
+    font-size: 22px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 17px 30px;
+    border: none;
+    color: white;
+}
+.last-para{
+    color: #0E0E0EB3;
+    font-size: 16px;
+}
